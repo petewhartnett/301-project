@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-  background-color: palevioletred;
+  background-color: rgb(131, 19, 235);
   color: rgb(223, 217, 192);
   display: flex;
   font-family: 'Lobster', cursive;
@@ -24,6 +24,16 @@ h1{
   text-align: center;
  
 }
+
+#exp{
+  color:rgb(223, 217, 192);
+  font-family: 'Lobster', cursive;
+  font-size: medium;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+ }
 
 
 @media(min-width: 768px){

@@ -3,6 +3,7 @@
   color: palevioletred;
   display: flex;
   font-family: 'Rock Salt', cursive;
+  font-size: 1.5em;
   justify-content: center;
   height: 75vh;
   padding: 3em;
@@ -208,4 +209,24 @@
   .remove{
     background-color:rgb(3, 3, 21);
     border-color: rgb(3, 3, 29);
+  }
+
+@media(max-width: 768px){
+  #welcome {
+    background-color: rgba(230, 228, 228, 0);
+  }
+}
+
+.content{
+  border:rgb(147, 172, 157) solid 1px;
+  background-color: rgba(230, 228, 228, 0.07);
+  border-radius: 20px;
+  margin:0 auto 3em;
+  height: 350px;
+  width:800px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: honeydew;
   }
